@@ -9,8 +9,8 @@ const url = "https://public.tableau.com/views/RentalCarProfitCostAnalysis-Dashbo
 const vizContainer = document.getElementById('vizContainer');
 const options = {
     hideTabs: true,
-    height: 1000,
-    width: 1200,
+    height: 2050,
+    width: 1014,
     onFirstInteraction: function() {
         workbook = viz.getWorkbook();
         activeSheet = workbook.getActiveSheet();
